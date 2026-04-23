@@ -3,3 +3,7 @@
 
 #include "GM_Basic.h"
 
+AGM_Basic::AGM_Basic()
+{
+
+}

@@ -8,8 +8,9 @@ public class L20260423EditorTarget : TargetRules
 	public L20260423EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
-		ExtraModuleNames.AddRange( new string[] { "L20260423" } );
+        ExtraModuleNames.AddRange( new string[] { "L20260423" } );
 	}
 }
